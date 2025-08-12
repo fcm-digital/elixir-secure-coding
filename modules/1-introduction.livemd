@@ -51,8 +51,12 @@ As such, each <span style="color:red;">**Quiz**</span> question is very specific
 7. [Security Anti-Patterns](./7-anti-patterns.livemd) - ~15 minutes
 8. [CI/CD Tools](./8-cicd.livemd) - ~10 minutes
 9. [The Secure Road](./9-secure-road.livemd) - ~10 minutes
+10. Unknown (No content)
+11. [Authentication](./11-authentication.livemd) - ~10 minutes
+12. [Cryptography](./12-cryptography.livemd) - ~15 minutes
+13. [Results](./results.livemd)
 
-Total Time for Completion: ~2hr10m
+Total Time for Completion: ~2hr35m
 
 <!-- livebook:{"break_markdown":true} -->
 

@@ -1,0 +1,19 @@
+# ESCT: Part 12 - Results
+
+```elixir
+:ok
+# Mix.install(
+#  [
+#    {:grading_client, path: "#{__DIR__}/grading_client"}
+#  ],
+#  config_path: "#{__DIR__}/grading_client/config/config.exs"
+# )
+```
+
+## Test
+
+```elixir
+GradingClient.Answers.get_results()
+|> Kino.DataTable.new(name: "Task Results", keys: ["module", "task", "result"])
+
+```
