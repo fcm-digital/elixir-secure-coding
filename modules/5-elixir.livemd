@@ -1,12 +1,12 @@
 # ESCT: Part 5 - Elixir Security
 
 ```elixir
-Mix.install([
-  {:grading_client, path: "#{__DIR__}/grading_client"},
-  {:benchwarmer, github: "mroth/benchwarmer", ref: "12b5a96b38cef09f2bd49e5c2dd5024100c1e8af"},
-  :uuid,
-  :plug
-])
+# Mix.install([
+#   {:grading_client, path: "#{__DIR__}/grading_client"},
+#   {:benchwarmer, github: "mroth/benchwarmer", ref: "12b5a96b38cef09f2bd49e5c2dd5024100c1e8af"},
+#   :uuid,
+#   :plug
+# ])
 ```
 
 ## Introduction

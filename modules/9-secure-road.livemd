@@ -1,9 +1,9 @@
 # ESCT: Part 9 - The Secure Road
 
 ```elixir
-Mix.install([
-  {:grading_client, path: "#{__DIR__}/grading_client"}
-])
+# Mix.install([
+#   {:grading_client, path: "#{__DIR__}/grading_client"}
+# ])
 
 :ok
 ```

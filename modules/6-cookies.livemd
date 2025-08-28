@@ -3,11 +3,11 @@
 # ESCT: Part 6 - Cookie Security
 
 ```elixir
-Mix.install([
-  {:grading_client, path: "#{__DIR__}/grading_client"},
-  :phoenix,
-  :plug
-])
+# Mix.install([
+#   {:grading_client, path: "#{__DIR__}/grading_client"},
+#   :phoenix,
+#   :plug
+# ])
 
 alias Phoenix.ConnTest
 alias Plug

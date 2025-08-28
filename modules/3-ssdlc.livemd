@@ -1,9 +1,9 @@
 # ESCT: Part 3 - Secure SDLC Concepts
 
 ```elixir
-Mix.install([
-  {:grading_client, path: "#{__DIR__}/grading_client"}
-])
+# Mix.install([
+#   {:grading_client, path: "#{__DIR__}/grading_client"}
+# ])
 
 System.put_env("envar_secret", "some-secret-password")
 

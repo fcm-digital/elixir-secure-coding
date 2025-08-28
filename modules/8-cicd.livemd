@@ -1,10 +1,10 @@
 # ESCT: Part 8 - CI/CD Tools
 
 ```elixir
-Mix.install([
-  {:grading_client, path: "#{__DIR__}/grading_client"},
-  :sobelow
-])
+# Mix.install([
+#   {:grading_client, path: "#{__DIR__}/grading_client"},
+#   :sobelow
+# ])
 
 :ok
 ```
@@ -58,9 +58,9 @@ Injection vulnerabilities are places in an application where a malicious actor c
 [The following modules are supported by Sobelow for the discovery of Command Injection Vulnerabilities](https://hexdocs.pm/sobelow/0.2.4/Sobelow.CI.html#content)
 
 ```
-Sobelow.CI 
-Sobelow.CI.OS 
-Sobelow.CI.System 
+Sobelow.CI
+Sobelow.CI.OS
+Sobelow.CI.System
 ```
 
 Reference: https://docs.guardrails.io/docs/vulnerabilities/elixir/insecure_use_of_dangerous_function

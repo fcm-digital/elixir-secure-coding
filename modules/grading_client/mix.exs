@@ -24,7 +24,13 @@ defmodule GradingClient.MixProject do
     [
       {:kino, "~> 0.10"},
       {:bcrypt_elixir, "~> 3.2"},
-      {:httpoison, "~> 2.2"}
+      {:httpoison, "~> 2.2"},
+      {:benchwarmer,
+       github: "mroth/benchwarmer", ref: "12b5a96b38cef09f2bd49e5c2dd5024100c1e8af"},
+      {:uuid, "~> 1.1"},
+      {:plug, "~> 1.18"},
+      {:phoenix, "~> 1.7"},
+      {:sobelow, "~> 0.14"}
     ]
   end
 end
